@@ -6,10 +6,10 @@ A sample project to demonstrate the asynchronous communication between two sprin
 Apache ActiveMQ Artemis is a combined feature-set of ActiveMQ/HornetQ/Apollo. It provides a non blocking architecture for an outstanding performance.
 
 # Technologies
-– Java 8
-– Maven 3
-– Spring Boot: 1.5.4.RELEASE
-– Apache Artemis 2.4.0
+- Java 8
+- Maven 3
+- Spring Boot: 1.5.4.RELEASE
+- Apache Artemis 2.4.0
 
 # SpringBoot Artemis applications
 In the Demo, we create 2 SpringBoot Artemis projects for producer/consumer:
@@ -55,3 +55,10 @@ $ java -jar .\target\artemis-producer-0.1.0.jar
 ```cmd
 $ curl http://localhost:8080/produce?msg=Hello Artemis!
 ```
+
+# References
+
+- Apache ActiveMQ Artemis https://activemq.apache.org/artemis/
+- amazing Tutorial 
+http://javasampleapproach.com/spring-framework/spring-jms/apache-artemis-produceconsume-jms-messages-springboot-artemis-applications
+- Advanced Themes : http://nordlander.co/getting-started-with-apache-activemq-artemis/
