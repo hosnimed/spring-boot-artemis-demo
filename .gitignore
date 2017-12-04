@@ -22,8 +22,8 @@
 hs_err_pid*
 
 #idea
-.idea/**
-.settings/**
+.idea
+.settings
 .project
 # User-specific stuff:
 .idea/**/workspace.xml
