@@ -1,0 +1,4 @@
+com\sbm\artemis\demo\SpringBootArtemisProducerApplication.class
+com\sbm\artemis\demo\controller\RestApiController.class
+com\sbm\artemis\demo\jms\ArtemisProducer.class
+com\sbm\artemis\demo\jms\Person.class

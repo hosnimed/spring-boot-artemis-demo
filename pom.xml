@@ -25,6 +25,14 @@
     <artifactId>spring-boot-artemis-demo-multi-module</artifactId>
     <version>0.1.0</version>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.18</version>
+        </dependency>
+    </dependencies>
+
     <developers>
         <developer>
             <id>melhosni</id>
