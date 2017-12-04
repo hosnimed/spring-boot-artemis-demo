@@ -51,9 +51,14 @@ $ java -jar .\target\artemis-producer-0.1.0.jar
 
 
 **Test it**
-
+- Simple String Message
 ```cmd
-$ curl http://localhost:8080/produce?msg=Hello Artemis!
+$ curl http://localhost:8080/produce?msg="Hello Artemis!"
+```
+- Pojo Object
+```cmd
+$curl -X POST \
+  http://localhost:8080/produce   -H 'content-type: application/json'   -d '{"id":"1000", "name":"Hosni"}'
 ```
 
 # References
